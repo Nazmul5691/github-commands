@@ -35,11 +35,32 @@ const page = () => {
           <p>     git push origin new-experimental     =>pushing code in  new-experimental origin   </p>
 
 
+
           {/* open source contribution */}
 
           <p>     git fork then git clone   </p>
 
-          <p>     git commit -am "added-table"     =>then git clone   </p>
+          <p>     git commit -am "added-table"     => for added something in new branch on fork and clone file  </p>
+
+
+
+          {/* git revert-reset-soft-hard */}
+
+          <p>     git log     => for check all commit and commit details </p>
+
+          <p>     git log --oneline     => for check only commit id and commit name </p>
+
+          <p>     git log     => for check all commit and commit details </p>
+
+          prees q for back
+
+          <p>     git reset 758798 --hard     => for delete last commit  </p>
+
+          <p>     git push -f     => forcedly push code in github after delete a commit or edit a commit  </p>
+
+          <p>     git revert 758798     => change a specific commit  </p>
+
+
 
         </ul>
       </section>
